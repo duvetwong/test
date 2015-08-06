@@ -1,0 +1,70 @@
+test_start_0_0 (test_start.startpage) ... ok
+test_start_0_1 (test_start.startpage) ... ok
+test_start_0_2 (test_start.startpage) ... ok
+test_start_0_3 (test_start.startpage) ... ok
+test_start_0_4 (test_start.startpage) ... ok
+test_start_0_5 (test_start.startpage) ... ok
+test_start_1_0 (test_start.startpage) ... ok
+test_start_1_1 (test_start.startpage) ... ok
+test_homepage_0_0 (test_homepage.homepage) ... ok
+test_homepage_0_1 (test_homepage.homepage) ... ok
+test_homepage_1_0 (test_homepage.homepage) ... ok
+test_homepage_1_1 (test_homepage.homepage) ... ok
+test_homepage_1_2 (test_homepage.homepage) ... ok
+test_homepage_1_3 (test_homepage.homepage) ... ok
+test_homepage_1_4 (test_homepage.homepage) ... ok
+test_homepage_1_5 (test_homepage.homepage) ... ok
+test_homepage_2_0 (test_homepage.homepage) ... ok
+test_discoverpage_0_0 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_1_0 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_1_1 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_1_2 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_2_0 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_2_1 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_2_2 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_3_0 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_3_1 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_3_2 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_4_0 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_4_1 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_4_2 (test_discoverpage.discoverpage) ... ok
+test_discoverpage_5_0 (test_discoverpage.discoverpage) ... FAIL
+test_topicpage_0_0 (test_topicpage.topicpage) ... ok
+test_topicpage_1_0 (test_topicpage.topicpage) ... ok
+test_topicpage_2_0 (test_topicpage.topicpage) ... ok
+test_topicpage_3_0 (test_topicpage.topicpage) ... ok
+test_messagepage_0_0 (test_messagepage.messagepage) ... ok
+test_messagepage_1_0 (test_messagepage.messagepage) ... ok
+test_messagepage_2_0 (test_messagepage.messagepage) ... ok
+test_personalcenter_0_0 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_1_0 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_1_1 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_2_0 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_3_0 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_4_0 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_5_0 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_5_1 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_5_2 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_6_0 (test_personalcenter.personalcenter) ... ok
+test_personalcenter_7_0 (test_personalcenter.personalcenter) ... ok
+test_detail_0_0 (test_detail.detail) ... ok
+test_detail_1_0 (test_detail.detail) ... ok
+test_detail_2_0 (test_detail.detail) ... ok
+test_detail_3_0 (test_detail.detail) ... ok
+test_detail_4_0 (test_detail.detail) ... ok
+test_detail_5_0 (test_detail.detail) ... ok
+
+======================================================================
+FAIL: test_discoverpage_5_0 (test_discoverpage.discoverpage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Code\autotest\dailyrun\test_discoverpage.py", line 665, in test_discoverpage_5_0
+    "com.banciyuan.bcywebview:id/base_progressbar"])
+  File "C:\Code\autotest\dailyrun\test_meta.py", line 686, in assertAllIdExist
+    self.fail('FAIL not exist ' + el)
+AssertionError: FAIL not exist com.banciyuan.bcywebview:id/iv_like_search
+
+----------------------------------------------------------------------
+Ran 55 tests in 2242.290s
+
+FAILED (failures=1)
