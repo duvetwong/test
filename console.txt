@@ -1,4 +1,4 @@
-test_start_0_0 (test_start.startpage) ... ok
+test_start_0_0 (test_start.startpage) ... ok1
 test_start_0_1 (test_start.startpage) ... ok
 test_start_0_2 (test_start.startpage) ... ok
 test_start_0_3 (test_start.startpage) ... ok
